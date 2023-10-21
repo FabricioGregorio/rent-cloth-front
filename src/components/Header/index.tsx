@@ -1,6 +1,10 @@
+import './index.css'
+
 function Header() {
     return (
-        <header>teste header</header>
+        <header>
+            HEADER
+        </header>
     )
 }
 
