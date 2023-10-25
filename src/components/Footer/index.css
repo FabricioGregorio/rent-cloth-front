@@ -1,6 +1,6 @@
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--preto);
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -8,4 +8,6 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 999;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    border-top: 0.1rem solid var(--secundary-color);
 }
